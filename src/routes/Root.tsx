@@ -1,27 +1,33 @@
 import { Outlet } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import { css } from '@emotion/react';
 
 import { SiteNav } from '../components/SiteNav';
 
+const queryClient = new QueryClient();
+
 export const Root: React.FC<unknown> = () => {
   return (
-    <div
-      css={css`
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-      `}
-    >
-      <SiteNav />
+    <QueryClientProvider client={queryClient}>
       <div
         css={css`
-          width: 100%;
-          height: 100%;
-          padding: 1rem;
+          width: 100vw;
+          width: 100vh;
+          display: grid;
+          grid-template-rows: auto 1fr;
         `}
       >
-        <Outlet />
+        <SiteNav />
+        <div
+          css={css`
+            width: 100vw;
+            height: 100vh;
+            padding: 0 1rem;
+          `}
+        >
+          <Outlet />
+        </div>
       </div>
-    </div>
+    </QueryClientProvider>
   );
 };
