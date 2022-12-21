@@ -1,0 +1,213 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "pgibbons",
+      "name": "Peter Gibbons",
+      "division": "Software Development",
+      "role": "Lead Developer",
+      "email": "pgibbons@initech.com",
+      "hireDate": "2016-06-09"
+    },
+    {
+      "id": 2,
+      "username": "mbolton",
+      "name": "Michael Bolton",
+      "division": "Software Development",
+      "role": "Developer",
+      "email": "mbolton@initech.com",
+      "hireDate": "2015-03-10"
+    },
+    {
+      "id": 3,
+      "username": "snagheenanajar",
+      "name": "Samir Nagheenanajar",
+      "division": "Software Development",
+      "role": "Developer",
+      "email": "snagheenanajar@initech.com",
+      "hireDate": "2017-09-18"
+    },
+    {
+      "id": 4,
+      "username": "tsmykowski",
+      "name": "Tom Smykowski",
+      "division": "Software Development",
+      "role": "Project Manager",
+      "email": "tsmykowski@initech.com",
+      "hireDate": "2018-01-23"
+    },
+    {
+      "id": 5,
+      "username": "mwaddams",
+      "name": "Milton Waddams",
+      "division": "Logistics",
+      "role": "Document Manager",
+      "email": "mwaddams@initech.com",
+      "hireDate": "2010-010-31"
+    },
+    {
+      "id": 6,
+      "username": "blumbergh",
+      "name": "Bill Lumbergh",
+      "division": "Software Development",
+      "role": "Vice President",
+      "email": "blumbergh@initech.com",
+      "hireDate": "2013-7-04"
+    },
+    {
+      "id": 7,
+      "username": "dportwood",
+      "name": "Dom Portwood",
+      "division": "Software Development",
+      "role": "Team Manager",
+      "email": "dportwood@initech.com",
+      "hireDate": "2014-12-01"
+    }
+  ],
+  "tpsreports": [
+    {
+      "id": 1,
+      "title": "Peter Gibbons",
+      "user": "pgibbons",
+      "periodStart": "2022-01-01",
+      "periodEnd": "2022-01-31",
+      "workItems": [
+        {
+          "id": 1,
+          "title": "Y2K Date Changes in Bank Deposit Module",
+          "description": "Updates to all dates in the module",
+          "status": "Complete",
+          "startDate": "2022-01-01",
+          "endDate": "2022-01-05",
+          "hours": 3.5
+        },
+        {
+          "id": 2,
+          "title": "POC for Bundling Application to Floppy",
+          "description": "Test viability of shipping new applications on floppy disks.",
+          "status": "In Progress",
+          "startDate": "2022-01-05",
+          "endDate": "",
+          "hours": 37
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Michael Bolton",
+      "user": "mbolton",
+      "periodStart": "2022-01-01",
+      "periodEnd": "2022-01-31",
+      "workItems": [
+        {
+          "id": 3,
+          "title": "Application to Deal with Rounding Fractional Transactions",
+          "description": "Update procedures to handle rounding in fractional transactions",
+          "status": "Complete",
+          "startDate": "2022-01-01",
+          "endDate": "2022-01-25",
+          "hours": 49
+        },
+        {
+          "id": 4,
+          "title": "Bundle Fractional Transaction Application to Floppy",
+          "description": "Using Peter's work to bundle this application to floppy for distribution.",
+          "status": "In Progress",
+          "startDate": "2022-01-26",
+          "endDate": "",
+          "hours": 7
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Samir Nagheenanajar",
+      "user": "snagheenanajar",
+      "periodStart": "2022-01-01",
+      "periodEnd": "2022-01-31",
+      "workItems": [
+        {
+          "id": 5,
+          "title": "Processing Results of Fractional Transactions",
+          "description": "When rounding occurs in a transaction, we have to account for that money.",
+          "status": "Complete",
+          "startDate": "2022-01-01",
+          "endDate": "2022-01-25",
+          "hours": 32
+        },
+        {
+          "id": 6,
+          "title": "Updating Printer Drivers",
+          "description": "PC Load Letter error when printing seems to be unresolvable.",
+          "status": "In Progress",
+          "startDate": "2022-01-26",
+          "endDate": "",
+          "hours": 15
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tom Smykowski",
+      "user": "tsmykowski",
+      "periodStart": "2022-01-01",
+      "periodEnd": "2022-01-31",
+      "workItems": [
+        {
+          "id": 7,
+          "title": "Consulted With Intertrode on Requirements for HR Software",
+          "description": "Recorded requirements for HR software and faxed to development.",
+          "status": "Complete",
+          "startDate": "2022-01-01",
+          "endDate": "2022-01-15",
+          "hours": 10
+        },
+        {
+          "id": 8,
+          "title": "Worked on POC for Intelligent Deduction of Conclusions Software",
+          "description": "Spent time building out specifications and walked them to development.",
+          "status": "Complete",
+          "startDate": "2022-01-16",
+          "endDate": "2022-01-28",
+          "hours": 15
+        },
+        {
+          "id": 9,
+          "title": "Rearranged Office to Accomodate Wheel Chair",
+          "description": "Spent time rearranging office to accomodate my new wheel chair. I've been in it ever since the accident I got into after working on my exhaust.",
+          "status": "Complete",
+          "startDate": "2022-01-29",
+          "endDate": "2022-01-31",
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Milton Waddams",
+      "user": "mwaddams",
+      "periodStart": "2022-01-01",
+      "periodEnd": "2022-01-31",
+      "workItems": [
+        {
+          "id": 10,
+          "title": "Improving Processes for Coalation of Documents.",
+          "description": "Worked with Swingline to improve the process for coalation of documents.",
+          "status": "Complete",
+          "startDate": "2022-01-01",
+          "endDate": "2022-01-15",
+          "hours": 18
+        },
+        {
+          "id": 11,
+          "title": "Updated Procedures Related to Fire Safety and Evacuation",
+          "description": "Updated procedures related to fire safety and evacuation in the company manual.",
+          "status": "Blocked",
+          "startDate": "2022-01-16",
+          "endDate": "2022-01-31",
+          "hours": 11
+        }
+      ]
+    }
+  ]
+}
