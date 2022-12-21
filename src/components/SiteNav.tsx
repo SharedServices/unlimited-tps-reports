@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import styled from '@emotion/styled';
+import { css } from '@emotion/react';
 
 import logo from '../assets/initech-logo.png';
 
 const Masthead = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 75px;
-  padding: 0 0.8rem;
+  padding: 0;
 
   background-color: rgb(109, 175, 175);
 
@@ -19,13 +20,14 @@ const CompanyInfo = styled.div`
   height: 100%;
   display: grid;
   grid-template-columns: auto 1fr;
+  justify-items: start;
   align-items: center;
 `;
 
 const Logo = styled.img`
   display: inline;
   height: 100%;
-  margin-right: 1rem;
+  padding-right: 1rem;
 `;
 
 const Nav = styled.nav`
@@ -42,12 +44,19 @@ export const SiteNav: React.FC<unknown> = () => {
     <Masthead>
       <CompanyInfo>
         <Logo src={logo} alt="Initech" />
-        <h1>INITECH</h1>
+        <div
+          css={css`
+            font-size: 2em;
+            font-weight: bold;
+          `}
+        >
+          INITECH
+        </div>
       </CompanyInfo>
       {/* prettier-ignore */}
       <Nav>
         <Link to="/instructions">Instructions</Link> |
-        <Link to="/tps-reports">TPS Report Builder</Link>
+        <Link to="/tps-reports">TPS Reports</Link>
       </Nav>
     </Masthead>
   );
